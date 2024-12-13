@@ -94,3 +94,18 @@ a {
     color: #0036ff;
   }
   
+  img {
+    border-style: dotted;
+    border-color: darkviolet;
+    border-radius: 15px;
+    max-height: 860px;
+    max-width: 580px;
+  }
+  
+  .images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+  }
